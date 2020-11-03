@@ -5,6 +5,7 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/backgroundYobi"
         android:layout_width="match_parent"
@@ -12,8 +13,9 @@
         android:scaleType="centerCrop"
         android:visibility="visible"
         app:srcCompat="@drawable/ic_daftar"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-103dp" />
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="-51dp" />
+
 
     <EditText
         android:id="@+id/ET_nohp"
@@ -66,11 +68,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="600dp"
-        android:background="@android:color/white"
         android:text="Daftar"
+        android:background="@drawable/rounded_corner"
         android:textColor="@color/white"
         app:backgroundTint="#000"
-        app:elevation="4dp"
+        app:elevation="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/backgroundYobi"
